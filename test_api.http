@@ -1,0 +1,14 @@
+### Add record
+POST http://127.0.0.1:5000/add_record
+Content-Type: application/json
+
+{
+  "user_name": "Sharayu",
+  "date": "2025-10-11",
+  "steps": 4000,
+  "hydrated": true,
+  "bp_systolic": 120,
+  "bp_diastolic": 80,
+  "bmi": 22.5,
+  "notes": "Feeling good"
+}
